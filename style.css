@@ -1,0 +1,225 @@
+/*navbar section */
+@font-face{
+    font-family: 'Gilroy';
+    src:url('Gilroy-Medium.ttf') format('truetype');
+    font-weight:500;
+    font-style:normal;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Gilroy','sans-serif';
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: black;
+    color:white;
+    scroll-behavior: smooth;
+  
+}
+.nav{
+    height:90px;
+    width:100%;
+    display:flex;
+     align-items: center;
+    justify-content: space-between;
+    padding:30px 50px;
+
+}
+
+.nav h3 a{
+    text-decoration:none;
+    color:white;
+}
+.page2{
+    display: flex;
+    gap:50px;
+}
+.page2 h3 a{
+    border-bottom:3px solid transparent;
+    transition:border-bottom 2s ease;
+}
+.page2 h3 a:hover{
+
+    border-bottom:3px solid white;
+
+}
+.dark-mode{
+    background-color: black;
+    color:white;
+}
+.light-mode{
+    background-color: white;
+    color:black;
+}
+.light-mode .nav h3 a{
+    background-color: white;
+    color:black;
+}
+.light-mode .page2 h3 a:hover{
+    border-bottom:3px solid black;
+
+}/* home */
+.home{
+    height:300px;
+    width:100%;
+}
+.image{
+    display:flex;
+    justify-content:center;
+}
+
+.myImage{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+.line1{
+    text-align: center;
+}
+.line2{
+    text-align:center;
+    font-size:40px;
+}
+.btn{
+    display:flex;
+    justify-content:center;
+}
+
+.mybtn{
+    height:50px;
+    width:150px;
+    font-size:1.2rem;
+    border-radius:20px;
+    border:none;
+    background-color: white;
+    color:black;
+   
+}
+
+.mybtn:hover{
+    background-color: wheat;
+    cursor:pointer;
+
+}
+.light-mode .mybtn{
+    background-color: black;
+    color:white;
+}
+
+light-mode .mybtn:hover{
+    background-color: rgb(24,23,23);
+    
+}
+
+
+.projects{
+    height:480px;
+    width:100%;
+   margin-top:20px;
+    text-align:center;
+    
+}
+
+.boxes{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-around;
+   
+   
+
+}
+.box{
+    height:380px;
+    width:320px;
+    border:2px solid white;
+    border-radius:20px;
+    
+}
+.box .ecommerce{
+    height:140px;
+    margin-top:70px;
+    border-radius:20px;
+}
+.box h3{
+    margin-top:10px;
+}
+.box .portfolio{
+      height:140px;
+    margin-top:70px;
+    border-radius:20px;
+
+}
+.box .chatapplication{
+      height:140px;
+    margin-top:70px;
+    border-radius:20px;
+}
+
+.light-mode  .projects{
+    background-color: white;
+    color:black;
+}
+
+.light-mode .box{
+    
+    border:2px solid black;
+    
+}
+.light-mode .ecommerce{
+    border:2px solid black;
+}
+.light-mode .portfolio{
+     border:2px solid black;
+
+}
+.light-mode .chatapplication{
+     border:2px solid black;
+
+}
+
+.skills{
+    height:400px;
+    width:100%;
+   margin-top:20px;
+    text-align:center;
+
+}
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px; /* Space between vertical lines */
+  font-size:30px;
+}
+.light-mode  .skills{
+    background-color: white;
+    color:black;
+}
+
+.contactme{
+     height:350px;
+    width:100%;
+   margin-top:20px;
+    text-align:center;
+
+}
+
+.contact-list{
+    list-style :none;
+    padding:0;
+
+}
+.contact-list li{
+    margin-bottom:10px;
+    font-size:20px;
+}
+.light-mode  .contactme{
+    background-color: white;
+    color:black;
+}
